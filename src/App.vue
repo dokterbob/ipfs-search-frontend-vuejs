@@ -19,15 +19,16 @@
               <div class="col-md-8 col-lg-8 input-group">
                 <input type="text" class="form-control" placeholder="Search..." aria-label="Text input with dropdown button">
                 <div class="input-group-append">
-                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter</button>
-                  <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item" href="#">Any file</a>
-                    <a class="dropdown-item" href="#">Image</a>
-                    <a class="dropdown-item" href="#">Text</a>
-                    <a class="dropdown-item" href="#">Video</a>
-                    <a class="dropdown-item" href="#">Audio</a>
-                    <a class="dropdown-item" href="#">Directory</a>
-                  </div>
+
+                  <b-dropdown id="ddown1" text="Filter" variant="outline-secondary">
+                    <b-dropdown-item>Any file</b-dropdown-item>
+                    <b-dropdown-item>Image</b-dropdown-item>
+                    <b-dropdown-item>Text</b-dropdown-item>
+                    <b-dropdown-item>Video</b-dropdown-item>
+                    <b-dropdown-item>Audio</b-dropdown-item>
+                    <b-dropdown-item>Directory</b-dropdown-item>
+                  </b-dropdown>
+
                   <button class="btn btn-outline-secondary search-button" type="button">
                     <span class="glyphicons glyphicons-search"></span>
                   </button>
