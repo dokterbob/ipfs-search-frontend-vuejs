@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-
     <div class="header-wrapper">
       <b-container>
         <div class="row identity d-flex justify-content-center">
@@ -57,9 +56,8 @@
         <div class="row d-flex justify-content-center">
           <div class="rpio">Proudly sponsored by <a href="https://redpencil.io/">redpencil.io</a></div>
         </div>
-
-      </div>
-    </b-container>
+      </b-container>
+    </div>
   </div>
 </template>
 
