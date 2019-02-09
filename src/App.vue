@@ -29,9 +29,10 @@
                     <b-dropdown-item>Directory</b-dropdown-item>
                   </b-dropdown>
 
-                  <button class="btn btn-outline-secondary search-button" type="button">
+                  <b-button variant="outline-secondary" class="search-button">
                     <span class="glyphicons glyphicons-search"></span>
-                  </button>
+                  </b-button>
+
                 </div>
               </div>
             </div>
