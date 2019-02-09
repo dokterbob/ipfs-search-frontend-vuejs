@@ -2,8 +2,7 @@
   <div id="app">
 
     <div class="header-wrapper">
-      <div class="container">
-
+      <b-container>
           <div class="row identity d-flex justify-content-center">
             <div class="col identity-wrapper">
               <h1 class="d-flex justify-content-center">
@@ -42,12 +41,11 @@
               </b-input-group>
             </div>
           </div>
-
-      </div>
+      </b-container>
     </div>
 
     <div class="footer-wrapper">
-      <div class="container">
+      <b-container>
         <div class="row d-flex justify-content-center">
           <div class="links">
             <a class="btn btn-light btn-sm" role="button" href="https://api.ipfs-search.com/">API</a>
@@ -61,8 +59,7 @@
         </div>
 
       </div>
-    </div>
-
+    </b-container>
   </div>
 </template>
 
