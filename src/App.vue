@@ -17,7 +17,11 @@
           <div class="row search-bar">
             <div class="col d-flex justify-content-center">
               <div class="col-md-8 col-lg-8 input-group">
-                <input type="text" class="form-control" placeholder="Search..." aria-label="Text input with dropdown button">
+                <b-form-input
+                  placeholder="Search..."
+                  aria-label="Text input with dropdown button"
+                />
+
                 <div class="input-group-append">
 
                   <b-dropdown id="ddown1" text="Filter" variant="outline-secondary">
