@@ -3,17 +3,17 @@
     <div class="header-wrapper">
       <b-container>
         <b-row class="identity d-flex justify-content-center">
-          <div class="col identity-wrapper">
+          <b-col class="identity-wrapper">
             <h1 class="d-flex justify-content-center">
               <a href="https://ipfs-search.com">
                 <img src="./assets/logo_white_bright.svg" alt="ipfs-search.com" />
               </a>
             </h1>
-          </div>
+          </b-col>
         </b-row>
 
         <b-row class="search-bar">
-          <div class="col d-flex justify-content-center">
+          <b-col class="d-flex justify-content-center">
             <b-input-group class="col-md-8 col-lg-8">
               <b-form-input
                 placeholder="Search..."
@@ -38,7 +38,7 @@
               </b-input-group-append>
 
             </b-input-group>
-          </div>
+          </b-col>
         </b-row>
       </b-container>
     </div>
