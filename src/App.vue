@@ -43,7 +43,7 @@
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="links">
-            <a class="btn btn-light btn-sm" role="button" href="/api/">API</a>
+            <a class="btn btn-light btn-sm" role="button" href="https://api.ipfs-search.com/">API</a>
             <a class="btn btn-light btn-sm" role="button" href="https://github.com/ipfs-search/ipfs-search">Code</a>
             <a class="btn btn-light btn-sm" role="button" href="mailto:info@ipfs-search.com">Contact</a>
           </div>
