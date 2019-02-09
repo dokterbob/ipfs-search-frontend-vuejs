@@ -7,8 +7,8 @@
           <div class="row identity d-flex justify-content-center">
             <div class="col identity-wrapper">
               <h1 class="d-flex justify-content-center">
-                <a href="http://ipfssearch.com">
-                  <img src="./assets/logo_white_bright.svg" alt="IPFS Search" />
+                <a href="https://ipfs-search.com">
+                  <img src="./assets/logo_white_bright.svg" alt="ipfs-search.com" />
                 </a>
               </h1>
             </div>
