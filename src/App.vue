@@ -2,7 +2,7 @@
   <div id="app">
     <div class="header-wrapper">
       <b-container>
-        <div class="row identity d-flex justify-content-center">
+        <b-row class="identity d-flex justify-content-center">
           <div class="col identity-wrapper">
             <h1 class="d-flex justify-content-center">
               <a href="https://ipfs-search.com">
@@ -10,9 +10,9 @@
               </a>
             </h1>
           </div>
-        </div>
+        </b-row>
 
-        <div class="row search-bar">
+        <b-row class="search-bar">
           <div class="col d-flex justify-content-center">
             <b-input-group class="col-md-8 col-lg-8">
               <b-form-input
@@ -39,23 +39,23 @@
 
             </b-input-group>
           </div>
-        </div>
+        </b-row>
       </b-container>
     </div>
 
     <div class="footer-wrapper">
       <b-container>
-        <div class="row d-flex justify-content-center">
+        <b-row class="d-flex justify-content-center">
           <div class="links">
             <a class="btn btn-light btn-sm" role="button" href="https://api.ipfs-search.com/">API</a>
             <a class="btn btn-light btn-sm" role="button" href="https://github.com/ipfs-search/ipfs-search">Code</a>
             <a class="btn btn-light btn-sm" role="button" href="mailto:info@ipfs-search.com">Contact</a>
           </div>
-        </div>
+        </b-row>
 
-        <div class="row d-flex justify-content-center">
+        <b-row class="d-flex justify-content-center">
           <div class="rpio">Proudly sponsored by <a href="https://redpencil.io/">redpencil.io</a></div>
-        </div>
+        </b-row>
       </b-container>
     </div>
   </div>
