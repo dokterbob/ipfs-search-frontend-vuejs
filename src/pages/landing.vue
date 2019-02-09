@@ -1,0 +1,75 @@
+<template>
+  <div class="landing-wrapper">
+    <div class="header-wrapper">
+      <b-container>
+        <b-row class="identity d-flex justify-content-center">
+          <b-col class="identity-wrapper">
+            <h1 class="d-flex justify-content-center">
+              <a href="https://ipfs-search.com">
+                <img src="@/assets/logo_white_bright.svg" alt="ipfs-search.com" />
+              </a>
+            </h1>
+          </b-col>
+        </b-row>
+
+        <b-row class="search-bar">
+          <b-col class="d-flex justify-content-center">
+            <b-input-group class="col-md-8 col-lg-8">
+              <b-form-input
+                placeholder="Search..."
+                aria-label="Text input with dropdown button"
+              />
+
+              <b-input-group-append>
+
+                <b-dropdown id="ddown1" text="Filter" variant="outline-secondary">
+                  <b-dropdown-item>Any file</b-dropdown-item>
+                  <b-dropdown-item>Image</b-dropdown-item>
+                  <b-dropdown-item>Text</b-dropdown-item>
+                  <b-dropdown-item>Video</b-dropdown-item>
+                  <b-dropdown-item>Audio</b-dropdown-item>
+                  <b-dropdown-item>Directory</b-dropdown-item>
+                </b-dropdown>
+
+                <b-button variant="outline-secondary" class="search-button" @click="$router.push('/results/')">
+                  <span class="glyphicons glyphicons-search"></span>
+                </b-button>
+
+              </b-input-group-append>
+
+            </b-input-group>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
+
+    <div class="footer-wrapper">
+      <b-container>
+        <b-row class="d-flex justify-content-center">
+          <div class="links">
+            <a class="btn btn-light btn-sm" role="button" href="https://api.ipfs-search.com/">API</a>
+            <a class="btn btn-light btn-sm" role="button" href="https://github.com/ipfs-search/ipfs-search">Code</a>
+            <a class="btn btn-light btn-sm" role="button" href="mailto:info@ipfs-search.com">Contact</a>
+          </div>
+        </b-row>
+
+        <b-row class="d-flex justify-content-center">
+          <div class="rpio">Proudly sponsored by <a href="https://redpencil.io/">redpencil.io</a></div>
+        </b-row>
+      </b-container>
+    </div>
+
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+  },
+};
+</script>
+
+<style scoped>
+</style>
+
+
