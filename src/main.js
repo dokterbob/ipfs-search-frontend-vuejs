@@ -8,6 +8,9 @@ import BootstrapVue from 'bootstrap-vue';
 import App from './App';
 import router from './router';
 
+// Global stylesheet
+import './assets/scss/style.scss';
+
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false;
 
