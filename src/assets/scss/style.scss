@@ -17,7 +17,7 @@
 }
 
 .header-wrapper {
-  z-index: 1;
+  z-index: 100;
   position:fixed;
   top:0px;
   left:0;
@@ -68,7 +68,6 @@
 .results-wrapper {
   overflow-x: hidden;
   transition: margin-top 0.1s ease-in-out;
-  z-index: 0;
   position:relative;
   .container {
     .list-group {
@@ -196,6 +195,7 @@
 
 .modal {
   padding-right: 0 !important;
+
   .modal-dialog {
     margin-top: 0;
     margin-bottom:0;
@@ -227,3 +227,4 @@
     }
   }
 }
+
