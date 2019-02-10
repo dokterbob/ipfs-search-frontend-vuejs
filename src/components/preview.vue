@@ -1,5 +1,5 @@
 <template>
-  <b-modal :id="id" size="lg" hide-footer="true" lazy="true">
+  <b-modal :id="id" size="lg" :hide-footer="true" :lazy="true">
     <template slot="modal-title">{{ title }}</template>
 
     <template>
