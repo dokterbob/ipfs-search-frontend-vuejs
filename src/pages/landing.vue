@@ -17,6 +17,7 @@ export default {
     SearchFooter,
   },
   data() {
+    return {};
   },
 };
 </script>
