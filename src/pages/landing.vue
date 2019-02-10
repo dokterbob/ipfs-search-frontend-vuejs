@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-wrapper">
+  <div>
     <SearchHeader/>
 
     <SearchFooter/>

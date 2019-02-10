@@ -114,8 +114,8 @@ footer {
 }
 
 // What happens if we have results
-body.active {
-  .header-wrapper {
+.active {
+  header {
     background-image: none;
     height:132px;
     .container {
@@ -136,7 +136,7 @@ body.active {
   .results-wrapper {
     margin-top: 132px;
   }
-  .footer-wrapper {
+  footer {
     position:relative;
   }
 }
