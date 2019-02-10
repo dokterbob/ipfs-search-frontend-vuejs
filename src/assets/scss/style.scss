@@ -193,3 +193,37 @@
     }
   }
 }
+
+.modal {
+  padding-right: 0 !important;
+  .modal-dialog {
+    margin-top: 0;
+    margin-bottom:0;
+    .modal-content {
+      height:100vh;
+      border-radius: 0;
+      border: 0;
+      .modal-header {
+        border-bottom: none;
+        h5 {
+          overflow: hidden;
+          word-wrap:break-word;
+        }
+      }
+      .modal-body {
+        padding-top:0;
+        margin-bottom:0;
+        background-color: white;
+        p {
+          align-self: flex-start;
+        }
+        dl {
+          dd {
+            overflow: hidden;
+            word-wrap:break-word;
+          }
+        }
+      }
+    }
+  }
+}
