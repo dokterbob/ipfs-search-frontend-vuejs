@@ -1,5 +1,5 @@
 <template>
-  <header id="search-header">
+  <header class="search-header">
     <b-container>
       <b-row class="identity d-flex justify-content-center">
         <b-col class="identity-wrapper">
@@ -54,7 +54,7 @@ export default {
 <style scoped lang="scss">
 @import "@/assets/scss/includes/colors.scss";
 
-header {
+.search-header {
   z-index: 1;
   position:fixed;
   top:0px;
@@ -105,7 +105,7 @@ header {
 }
 
 .active {
-  header {
+  .search-header {
     background-image: none;
     height:132px;
     .container {
