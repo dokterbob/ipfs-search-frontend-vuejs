@@ -20,7 +20,7 @@
         <div class="col">
 
           <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" data-toggle="modal" data-target=".bd-result-modal-lg">
+            <a v-b-modal.banana class="list-group-item list-group-item-action flex-column align-items-start" data-toggle="modal" data-target=".bd-result-modal-lg">
               <div class="d-flex w-100 justify-content-between">
                 <h5 class="mb-1">mQvCQqtgop1aBMN7htApNh85W6BaCVwFYSh8smYcbQR5r</h5>
                 <small class="available"><span class="d-none d-lg-inline">Seen in the last 24 hours </span><i class="fas fa-volume-up"></i></small>
@@ -28,6 +28,9 @@
               <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
               <small class="text-muted">QmQvCQqtgop1aBMN7htApNh85W6BaCVwFYSh8smYcbQR5rQmYwFSJG5ctKQHc3</small>
             </a>
+
+            <SearchPreview id="banana" title="banana"/>
+
             <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
                 <h5 class="mb-1">List group item heading</h5>
@@ -139,7 +142,10 @@
 </template>
 
 <script>
+import SearchPreview from '@/components/preview';
+
 export default {
+  components: { SearchPreview },
   data() {
     return {};
   },
