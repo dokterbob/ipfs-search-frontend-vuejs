@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="footer-wrapper">
     <b-container>
       <b-row class="d-flex justify-content-center">
         <div class="links">
