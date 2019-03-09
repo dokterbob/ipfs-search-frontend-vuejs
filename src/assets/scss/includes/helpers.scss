@@ -4,7 +4,7 @@ body {
 }
 
 // remove ugly blue around input
-input[type="text"], textarea, .list-group-item {
+input[type="text"], textarea, select, .list-group-item {
   outline: none;
   box-shadow:none !important;
   border:1px solid #ccc !important;
